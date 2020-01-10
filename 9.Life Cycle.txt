@@ -1,0 +1,11 @@
+constructor  -  componentDidMount  -  componentDidUpdate - componentWillUnmount
+                1. 필요한 데이터 요청   1.업데이트 이후 수정할 때   1.데이터 요청, 비동기 함수, 타이머 종료
+                2.각종 비동기 요청      2.if () {setState()}       2.setState X
+LifeCycle 전체 순서
+
+constructor
+Render
+Mount
+re-Render
+Update
+Unmount

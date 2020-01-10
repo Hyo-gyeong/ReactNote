@@ -1,0 +1,6 @@
+JSX란
+js에서 쓰는 HTML비슷한 것
+특징
+-태그 이름은 기존 HTML과 거의 유사함.
+-Attribute나 css는 낙타방식(ex. className, testAlign)
+-Js 코드를 활용하고 싶다면 {}를 이용함.

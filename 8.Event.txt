@@ -1,0 +1,36 @@
+정리
+Component
+//나뉨
+-상태가 있느냐 없느냐
+-function
+-class Component 
+    -set state를 통해 갱신하고 render를 통해 바로 뿌려줌
+
+
+결국 Component란
+-class SampleComponent extends React.Component
+-LifeCycle 관련 함수 설정
+    constructor
+    componentDidMount, componentDidUpdate
+    componentWillUnmount
+-eventHandler 함수들
+    필요한 기능 함수들
+-render 함수
+    return <div className = {"SampleComponent"}>
+            JSX, component
+    </div>
+-----------------------------------------------------------
+
+Event === 웹 상에서의 모든 행위, 매우 많음
+
+우선 event를 들어야 함 === event listner
+>> on + (Event)
+
+------------------------------------------------------------
+
+Event Handling
+
+1.State를 만든다.
+2.Handling함수를 만든다.
+3.이벤트가 발생하는 HTML태그에서 onEvent명을 통해 handling함수를 부른다.
+
